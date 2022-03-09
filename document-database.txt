@@ -1,0 +1,31 @@
+table user:
+	id kiểu int khóa chính (20)
+	taikhoan, matkhau,ten,diachi varchar(255)
+	sodienthoai varchar(10)
+	gioitinh bit(2)
+
+table sach:
+	sach_id varchar(255) khóa chính
+	ten, tacgia varchar(255)
+	ngayxuatban datetime
+	sotrang varchar(5)
+	gioithieu varchar(255)
+	giatien double(12,2)
+	trangthai bit(2)
+
+table theloaisach:
+	theloai_id varchar khóa chính(255)
+	ten varchar(255)
+	sach_id varchar(255) khóa ngoại
+
+table sale:
+	sach_id
+	giasale
+
+table giohang:
+	id int (255) khoá chính
+	user_id int(20) khóa ngoại với table user
+	sach_id varchar(255) khóa ngoại của bảng sách
+	soluong int(11)
+	giatien double(12,2)
+	tongtien double(12,2)

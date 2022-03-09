@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#c6ffdd, #fbd786, #f7797d);
+    font-size: 62.5%;
+}
+:root{
+    --whitecl: #fff;
+    --blackcl: #000;
+    --textcl:  #423f3f;
+    --pricl: tomato;
+    --pricl2: #428f1f;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.grid__col-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%; /*3 chia 12 *100 (grid 12 column)*/
+}
+.grid__col-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+}
+.grid__col-1-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.grid__col-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+}
+.grid__col-10b{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+.grid__col-2-4b{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6%;
+}
+@media (max-width:1023px){
+    .grid__col-10{
+        width: 100%;
+        margin: 0 2rem;
+    }
+}
+@media (max-width: 600px){
+    .grid__col-2-4{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 50%;
+    }
+    .grid__col-2-4b{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 50%;
+    }
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	position: relative;
+	top: 30px;
+}
+
+header div {
+	font-size: 1.5rem;
+}
+
+.nav__menu__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	height: 80px;
+	align-items: flex-end;
+	margin-left: 110px;
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+
+.nav__menu__list li {
+	padding: 20px;
+	/* background: #000; */
+	list-style: none;
+}
+/*.nav__menu__list li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.5rem;
+	transition: .3s ease;
+}*/
+
+.nav__menu__list li a:hover {
+	text-decoration: none;
+	
+}
+.nav__menu__list-btn{
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
+	height: 40px;
+	width: 180px;
+	border: none;
+	outline: none;
+}
+.nav__menu__list-btn:hover{
+	background-color: #ccc;
+}
+
+.nav__menu__timkiem {
+	height: 30px;
+	width: 200px;
+	padding-left: 10px;
+	font-size: 1.2rem;
+	transition: .5s ease;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+
+.nav__menu__timkiem:hover {
+	width: 500px;
+}
+
+.card {
+	
+	margin: 50px auto;
+
+}
+
+.card__them {
+
+	border-radius: 10px;
+
+	width: 800px;
+
+
+	background-image: linear-gradient(45deg,  #1d1b29, #a9a9ad);
+
+	box-shadow: -2px 2px 14px 10px #1d1b29;
+}
+
+.card__them input, .card__them label, select, button {
+
+	font-size: 1.2rem;
+
+	display:  block;
+}
+
+.card__them label {
+	color: #fff;
+}
+
+.card__them input, select, button {
+
+	width: 200px;
+
+	height: 30px;
+
+	margin: 5px;
+
+	border-radius: 4px;
+
+	transition: .3s ease-in-out;
+}
+
+.card__them input:hover	 {
+	width: 80%;
+}
+
+button {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+button:hover {
+	background: #000;
+	color:  #fff;
+}
+
+.content {
+	margin-top: 40px;
+}
+
+.table__styled {
+	/* border: 1px solid #000; */
+	border-collapse: collapse;
+  	width: 100%;
+	margin: 0 50px;
+}
+
+.col {
+	border: 1px solid #ddd;
+  	padding: 8px;
+  	/* text-align: center; */
+}
+
+.col__row1 { 
+	/* text-align: center; */
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04293A;
+	color: white;
+}
+
+.anhsach {
+	width: 100px;
+	height: 150px;
+}
